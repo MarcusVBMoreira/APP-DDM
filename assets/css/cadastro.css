@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #0d0d0d;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h1 .peral {
+    color: #e74c3c;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h1 .book {
+    color: #f1c40f;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}

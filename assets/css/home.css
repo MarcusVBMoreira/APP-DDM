@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.book-container {
+    background-color: #0d0d0d;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 340px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h1 .peral {
+    color: #e74c3c;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h1 .book {
+    color: #f1c40f;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.book-card {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 140px;
+}
+
+.book-card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.add-book {
+    display: flex;
+    justify-content: center;
+}
+
+.add-book button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-book button:hover {
+    background-color: #f1c40f;
+}
